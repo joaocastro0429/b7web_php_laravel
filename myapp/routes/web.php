@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 Route::get('/site',[siteController::class,'index']);
 Route::get('/sair',[siteController::class,'tchau']);
+Route::get('/usuarios/{id}',[siteController::class,'usuarios']);
+
